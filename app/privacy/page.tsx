@@ -1,51 +1,48 @@
-export const metadata = {
-  title: "Privacy Policy | Streets OS",
-};
-
 export default function PrivacyPolicy() {
   return (
-    <main style={{ maxWidth: "900px", margin: "0 auto", padding: "48px 24px" }}>
+    <main style={{ maxWidth: 800, margin: "40px auto", padding: "0 16px", fontFamily: "serif" }}>
       <h1>Privacy Policy</h1>
-      <p>Last updated: December 2025</p>
+      <p><strong>Last updated:</strong> December 2025</p>
 
       <p>
-        Streets OS ("we", "our", or "us") operates software tools that help creators
-        manage content posting, analytics, and automation across social platforms.
+        Streets OS (“we”, “our”, or “us”) operates the website https://streetsos.com and related services
+        (the “Service”).
+      </p>
+
+      <p>
+        This Privacy Policy explains how we collect, use, and protect information when users interact
+        with Streets OS, including when connecting third-party platforms such as TikTok.
       </p>
 
       <h2>Information We Collect</h2>
       <p>
-        We may collect basic account information, platform identifiers, and content
-        metadata required to perform authorized actions such as posting or analytics.
+        When users authenticate with TikTok, we may receive basic profile information and content
+        permissions as authorized by the user through TikTok’s Login Kit and Content Posting API.
       </p>
 
       <h2>How We Use Information</h2>
       <ul>
-        <li>Operate and maintain Streets OS services</li>
-        <li>Post content on behalf of users with explicit permission</li>
-        <li>Improve reliability, performance, and security</li>
+        <li>To authenticate users</li>
+        <li>To publish or schedule content to TikTok on the user’s behalf</li>
+        <li>To operate and improve our services</li>
       </ul>
 
       <h2>Third-Party Services</h2>
       <p>
-        Streets OS integrates with third-party platforms including TikTok. Data is
-        accessed only with user authorization and used solely for requested features.
+        Streets OS integrates with TikTok APIs. We do not sell user data and only access data
+        explicitly permitted by the user during authorization.
       </p>
 
       <h2>Data Security</h2>
       <p>
-        We implement reasonable safeguards to protect data. Secrets and credentials
-        are stored securely and never sold.
-      </p>
-
-      <h2>Your Rights</h2>
-      <p>
-        Users may revoke access at any time via the connected platform or by
-        contacting us.
+        We take reasonable measures to protect user information and restrict access to authorized
+        systems only.
       </p>
 
       <h2>Contact</h2>
-      <p>Email: support@streetsos.com</p>
+      <p>
+        For questions about this policy, contact: support@streetsos.com
+      </p>
     </main>
   );
 }
