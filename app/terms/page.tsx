@@ -1,37 +1,39 @@
-export const metadata = { title: "Terms of Use | Streets OS" };
+export const metadata = {
+  title: "Terms of Service | Streets OS",
+};
 
-export default function TermsPage() {
+export default function Terms() {
   return (
-    <main style={{ maxWidth: 860, margin: "48px auto", padding: "0 20px", fontFamily: "system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif" }}>
-      <h1 style={{ marginBottom: 8 }}>Terms of Use</h1>
-      <p style={{ marginTop: 0, opacity: 0.75 }}>Last updated: {new Date().toISOString().slice(0, 10)}</p>
+    <main style={{ maxWidth: "900px", margin: "0 auto", padding: "48px 24px" }}>
+      <h1>Terms of Service</h1>
+      <p>Last updated: December 2025</p>
 
-      <h2>1. Overview</h2>
-      <p>Streets OS (“we”, “us”) provides tools for artists and teams. By using this site, you agree to these Terms.</p>
+      <p>
+        Streets OS provides automation and analytics tools for creators. By using
+        this service, you agree to comply with all applicable laws and platform
+        policies.
+      </p>
 
-      <h2>2. Who can use this</h2>
-      <p>You must be at least 13 years old. If you are under 18, use Streets OS only with a parent/guardian’s permission.</p>
-
-      <h2>3. Acceptable use</h2>
+      <h2>User Responsibilities</h2>
       <ul>
-        <li>Do not break the law using this service.</li>
-        <li>Do not attempt to hack, disrupt, or overload the service.</li>
-        <li>Do not upload content you do not have the right to use.</li>
+        <li>You authorize Streets OS to act on your behalf where connected</li>
+        <li>You are responsible for content you post</li>
+        <li>You may revoke access at any time</li>
       </ul>
 
-      <h2>4. Accounts</h2>
-      <p>You are responsible for keeping your login secure and for activity under your account.</p>
+      <h2>Service Availability</h2>
+      <p>
+        Services are provided “as-is” without guarantees of uptime or platform
+        approval.
+      </p>
 
-      <h2>5. Content</h2>
-      <p>You keep ownership of your content. You grant us permission to host and display it only as needed to operate the service.</p>
+      <h2>Limitation of Liability</h2>
+      <p>
+        Streets OS is not liable for platform enforcement actions or third-party
+        outages.
+      </p>
 
-      <h2>6. No warranties</h2>
-      <p>This service is provided “as is” without warranties of any kind.</p>
-
-      <h2>7. Limitation of liability</h2>
-      <p>To the maximum extent allowed by law, Streets OS is not liable for indirect or consequential damages.</p>
-
-      <h2>8. Contact</h2>
+      <h2>Contact</h2>
       <p>Email: support@streetsos.com</p>
     </main>
   );
