@@ -1,93 +1,98 @@
+export const metadata = {
+  title: "Privacy Policy | Streets OS",
+  description: "Privacy Policy for Streets OS.",
+};
+
 export default function PrivacyPage() {
   return (
-    <main style={{ maxWidth: 900, margin: "0 auto", padding: "48px 20px", fontFamily: "ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif" }}>
-      <h1 style={{ fontSize: 40, marginBottom: 8 }}>Privacy Policy</h1>
+    <main style={{ maxWidth: 900, margin: "0 auto", padding: "48px 20px", fontFamily: "system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif", lineHeight: 1.6 }}>
+      <h1 style={{ fontSize: 34, marginBottom: 8 }}>Privacy Policy</h1>
       <p style={{ marginTop: 0, color: "#444" }}>Last updated: December 2025</p>
 
-      <section style={{ marginTop: 28 }}>
-        <h2>Who we are</h2>
-        <p>
-          Streets OS (“we,” “us,” “our”) provides a web app that helps creators plan, manage, and publish social content,
-          including posting to TikTok after a creator connects their TikTok account.
-        </p>
-      </section>
+      <p>
+        This Privacy Policy explains how Streets OS (“we”, “us”, “our”) collects, uses, and shares information when you use
+        our website and services (collectively, the “Services”).
+      </p>
 
-      <section style={{ marginTop: 28 }}>
-        <h2>What information we collect</h2>
-        <ul>
-          <li><strong>Account and contact info:</strong> name and email if you create an account or contact us.</li>
-          <li><strong>TikTok connection data:</strong> when you connect TikTok, we store tokens/credentials needed to act on your behalf (per your authorization).</li>
-          <li><strong>Content you provide:</strong> captions, media files you upload, scheduling details, and posting preferences.</li>
-          <li><strong>Usage data:</strong> basic logs like pages visited, device/browser data, and error logs to keep the service working.</li>
-        </ul>
-      </section>
+      <h2 style={{ marginTop: 28 }}>1. Information we collect</h2>
+      <h3 style={{ marginTop: 16 }}>A) Information you provide</h3>
+      <ul>
+        <li>Account details (name, email, login credentials)</li>
+        <li>Support requests and messages</li>
+        <li>Content you upload or create in the Services</li>
+      </ul>
 
-      <section style={{ marginTop: 28 }}>
-        <h2>How we use information</h2>
-        <ul>
-          <li>To provide the service (create drafts, upload media, publish posts when you request).</li>
-          <li>To authenticate you and secure access to your account.</li>
-          <li>To troubleshoot issues, monitor reliability, and improve performance.</li>
-          <li>To communicate with you about service updates, security notices, and support requests.</li>
-        </ul>
-      </section>
+      <h3 style={{ marginTop: 16 }}>B) Information collected automatically</h3>
+      <ul>
+        <li>Device and browser information</li>
+        <li>IP address, approximate location, and log data</li>
+        <li>Usage data (pages viewed, actions taken, timestamps)</li>
+      </ul>
 
-      <section style={{ marginTop: 28 }}>
-        <h2>How TikTok data is used</h2>
-        <p>
-          If you connect TikTok, Streets OS uses the permissions you grant to upload content and/or publish content to your TikTok account.
-          We do not sell TikTok user data. We only access what’s needed to provide the features you enable.
-        </p>
-      </section>
+      <h3 style={{ marginTop: 16 }}>C) Third-party connections (e.g., TikTok)</h3>
+      <p>
+        If you connect a third-party account, we receive tokens/permissions needed to perform actions you request (such as
+        uploading content). The specific data depends on the scopes you approve on that platform.
+      </p>
 
-      <section style={{ marginTop: 28 }}>
-        <h2>Sharing of information</h2>
-        <p>We may share information only in these cases:</p>
-        <ul>
-          <li><strong>Service providers:</strong> hosting, analytics, error monitoring, and database providers who help us run the app.</li>
-          <li><strong>Legal:</strong> if required to comply with law, court order, or to protect rights and safety.</li>
-          <li><strong>Business changes:</strong> if we’re involved in a merger or acquisition, information may transfer as part of that transaction.</li>
-        </ul>
-      </section>
+      <h2 style={{ marginTop: 28 }}>2. How we use information</h2>
+      <ul>
+        <li>Provide, maintain, and improve the Services</li>
+        <li>Authenticate users and secure accounts</li>
+        <li>Process publishing requests you initiate</li>
+        <li>Customer support and service communications</li>
+        <li>Analytics and performance measurement</li>
+        <li>Prevent fraud, abuse, and security incidents</li>
+      </ul>
 
-      <section style={{ marginTop: 28 }}>
-        <h2>Data retention</h2>
-        <p>
-          We keep information as long as needed to provide the service and comply with legal obligations.
-          You can request deletion of your account data by contacting us (see Contact).
-        </p>
-      </section>
+      <h2 style={{ marginTop: 28 }}>3. How we share information</h2>
+      <p>We may share information:</p>
+      <ul>
+        <li>With service providers (hosting, analytics, security) under confidentiality obligations</li>
+        <li>With third-party platforms when you connect them and request actions (e.g., posting content)</li>
+        <li>To comply with law, enforce rights, or protect safety</li>
+        <li>In connection with a merger, acquisition, or asset sale (with appropriate notice where required)</li>
+      </ul>
 
-      <section style={{ marginTop: 28 }}>
-        <h2>Security</h2>
-        <p>
-          We use reasonable administrative, technical, and physical safeguards designed to protect information.
-          No method of transmission or storage is 100% secure.
-        </p>
-      </section>
+      <h2 style={{ marginTop: 28 }}>4. Data retention</h2>
+      <p>
+        We retain information as long as needed to provide the Services, meet legal obligations, resolve disputes, and enforce agreements.
+        You may request deletion subject to legal and operational requirements.
+      </p>
 
-      <section style={{ marginTop: 28 }}>
-        <h2>Your choices</h2>
-        <ul>
-          <li>You can disconnect TikTok access from within TikTok settings and/or within Streets OS (if available).</li>
-          <li>You can request access, correction, or deletion of your account data by contacting us.</li>
-        </ul>
-      </section>
+      <h2 style={{ marginTop: 28 }}>5. Security</h2>
+      <p>
+        We use reasonable safeguards designed to protect information. No system is 100% secure; you are responsible for protecting your
+        account credentials.
+      </p>
 
-      <section style={{ marginTop: 28 }}>
-        <h2>Children</h2>
-        <p>
-          Streets OS is not intended for children under 13 (or the minimum age required in your jurisdiction).
-          We do not knowingly collect personal information from children.
-        </p>
-      </section>
+      <h2 style={{ marginTop: 28 }}>6. Your choices</h2>
+      <ul>
+        <li>You can update account information inside the Services.</li>
+        <li>You can disconnect third-party integrations in the Services or on the third-party platform.</li>
+        <li>You can request access or deletion by contacting us.</li>
+      </ul>
 
-      <section style={{ marginTop: 28 }}>
-        <h2>Contact</h2>
-        <p>
-          For privacy questions or requests, contact: <strong>privacy@streetsos.com</strong>
-        </p>
-      </section>
+      <h2 style={{ marginTop: 28 }}>7. Cookies and analytics</h2>
+      <p>
+        We may use cookies or similar technologies to operate the site and understand usage. You can control cookies through your browser settings.
+      </p>
+
+      <h2 style={{ marginTop: 28 }}>8. Children</h2>
+      <p>
+        The Services are not directed to children under 13 (or the minimum age required by your jurisdiction). We do not knowingly collect
+        personal information from children.
+      </p>
+
+      <h2 style={{ marginTop: 28 }}>9. Changes</h2>
+      <p>
+        We may update this Privacy Policy from time to time. Continued use of the Services after changes means you accept the updated policy.
+      </p>
+
+      <h2 style={{ marginTop: 28 }}>10. Contact</h2>
+      <p>
+        Privacy questions: <strong>privacy@streetsos.com</strong>
+      </p>
     </main>
   );
 }
