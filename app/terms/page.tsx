@@ -1,40 +1,35 @@
-export const metadata = {
-  title: "Terms of Service | Streets OS",
-};
-
-export default function Terms() {
+export default function TermsOfService() {
   return (
-    <main style={{ maxWidth: "900px", margin: "0 auto", padding: "48px 24px" }}>
+    <main style={{ maxWidth: 800, margin: "40px auto", padding: "0 16px", fontFamily: "serif" }}>
       <h1>Terms of Service</h1>
-      <p>Last updated: December 2025</p>
+      <p><strong>Last updated:</strong> December 2025</p>
 
       <p>
-        Streets OS provides automation and analytics tools for creators. By using
-        this service, you agree to comply with all applicable laws and platform
-        policies.
+        By using Streets OS, you agree to these Terms of Service.
+      </p>
+
+      <h2>Service Description</h2>
+      <p>
+        Streets OS is a web-based platform that allows users to manage and publish content to
+        supported social media platforms, including TikTok, using official APIs.
       </p>
 
       <h2>User Responsibilities</h2>
       <ul>
-        <li>You authorize Streets OS to act on your behalf where connected</li>
-        <li>You are responsible for content you post</li>
-        <li>You may revoke access at any time</li>
+        <li>You authorize Streets OS to access TikTok APIs on your behalf</li>
+        <li>You are responsible for content you publish</li>
+        <li>You must comply with TikTok’s platform policies</li>
       </ul>
 
-      <h2>Service Availability</h2>
+      <h2>Termination</h2>
       <p>
-        Services are provided “as-is” without guarantees of uptime or platform
-        approval.
-      </p>
-
-      <h2>Limitation of Liability</h2>
-      <p>
-        Streets OS is not liable for platform enforcement actions or third-party
-        outages.
+        We may suspend access if these terms or applicable laws are violated.
       </p>
 
       <h2>Contact</h2>
-      <p>Email: support@streetsos.com</p>
+      <p>
+        Questions may be sent to: support@streetsos.com
+      </p>
     </main>
   );
 }
